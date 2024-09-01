@@ -1,0 +1,264 @@
+/* Reset the margins for the entire body */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+/* Style for the navigation bar */
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between; /* Space between nav items */
+    align-items: center; /* Align items vertically */
+}
+
+#bulldog {
+    margin-right: 15px;
+    width: 80px; 
+    height: 80px;
+    border: 2px solid white;
+    border-radius: 0px;
+}
+
+
+.education-content {
+    display: flex;
+    align-items: center;
+}
+
+#uga {
+    margin-right: 15px;
+    width: 80px; 
+    height: 80px;
+    border: 2px solid white;
+    border-radius: 0px;
+}
+
+.honors-content {
+    display: flex;
+    align-items: center;
+}
+
+#honors {
+    margin-right: 15px;
+    width: 80px; 
+    height: 80px;
+    border: 2px solid white;
+    border-radius: 0px;
+}
+
+nav a {
+    color: #fff; /* White text for links */
+    text-decoration: none; /* Remove underline from links */
+}
+
+nav a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
+
+/* Style for the footer */
+footer {
+    background-color: #333; /* Match footer with nav bar */
+    color: white; /* White text for contrast */
+    display: flex;
+    justify-content: center; /* Center align footer content */
+    padding: 20px; /* Padding around the footer content */
+    text-align: center; /* Center text within the footer */
+}
+
+footer a {
+    color: #fff; /* White text for footer links */
+    text-decoration: none; /* Remove underline from footer links */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Underline footer links on hover */
+}
+
+footer i {
+    font-size: 24px; /* Increase icon size for visibility */
+    margin-left: 10px; /* Space between icon and other elements */
+}
+
+/* Style for the splash section, often the hero section */
+.splash {
+    font-family: 'Poppins', sans-serif;
+    text-align: center; /* Center text in the splash section */
+    padding: 50px 20px; /* Padding to create space around content */
+    background-color: #999494;
+}
+
+.splash h1 {
+    font-weight: 600; 
+    font-family: 'Poppins', sans-serif; /* Use Google Font for a modern look */
+    font-size: 2.5rem; /* Larger font size for the main heading */
+    color: #0953a1;
+    margin-bottom: 20px; /* Space below the heading */
+    font-weight: 3000;
+    text-shadow: 5px 10px 5px black; 
+}
+
+.splash p {
+    margin-bottom: 10px; /* Space below paragraphs */
+    font-weight: 300;
+}
+
+/* Image styling within the splash section */
+.splash img {
+    float: left; /* Align image to the left of the text */
+    width: 150px; /* Set a fixed width for the image */
+    margin-right: 20px; /* Space between the image and text */
+    margin-top: -130px; /* Adjust the vertical position of the image */
+    border: 2px solid #0056b3;
+    border-radius: 60%; /* Rounded corners for the image */
+}
+
+/* Style for address information */
+address {
+    font-style: normal;
+    font-size: 1rem;
+    color: #333;
+}
+
+/* Style for the tagline text */
+.tagline {
+    font-style: italic;
+    font-size: 1.2rem;
+    color: #555458;
+}
+
+/* Style for horizontal rules to separate sections */
+hr.b1 {
+    border: 5px solid gray;
+    border-radius: 10px;
+}
+
+hr.b2 {
+    border-top: 3px dashed green;
+}
+
+hr.b3 {
+    border-top: 3px dashed green;
+}
+
+hr.b4 {
+    border: 3px solid blue;
+    padding: 0;
+    margin: 0;
+}
+
+/* Styling for section headers */
+h2, h3 {
+    font-family: 'Roboto', sans-serif; /* Use a modern font for headers */
+    font-size: 1.8rem;
+    color: #004085;
+}
+
+/* Adjust the font size for paragraphs and list items */
+p, li {
+    font-size: 1rem;
+}
+
+/* Additional styling for the education section */
+.education {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #222;
+    background-color: #eceaea;
+    padding: 10px;
+    border-left: 4px solid #004085;
+}
+
+/* Styling for unordered lists */
+ul {
+    list-style-type: disc; /* Use disc bullets for list items */
+    padding-left: 20px;
+    color: #444;
+}
+
+/* Grid layout for description lists */
+dl {
+    display: grid; /* Use grid layout */
+    grid-template-columns: 1fr 2fr; /* Two-column layout */
+    gap: 10px; /* Space between grid items */
+}
+
+/* Link styling throughout the document */
+a {
+    color: #007bff; /* Blue color for links */
+    text-decoration: none; /* Remove underline by default */
+}
+
+a:hover {
+    color: #0056b3; /* Darken link color on hover */
+    text-decoration: underline; /* Underline links on hover */
+}
+
+/* Grid layout for the project section */
+.three-col {
+    display: grid; /* Use grid layout */
+    grid-template-columns: repeat(3, 1fr); /* Three equal columns */
+    gap: 20px; /* Space between columns */
+    background-color: #7fa0c0; /* Light blue background */
+}
+
+/* Styling for individual project cards */
+.card {
+    background-color: #a9abad; /* Light gray background for cards */
+    padding: 15px; /* Padding within the card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    border-radius: 8px; /* Rounded corners for the card */
+}
+
+.card img {
+    max-width: 30%; /* Restrict image width within the card */
+    border-radius: 8px; /* Rounded corners for images */
+}
+
+/* Style for the contact form section */
+.one-col {
+    display: flex; /* Use flexbox layout */
+    flex-direction: column; /* Arrange items vertically */
+    align-items: center; /* Center items horizontally */
+    max-width: 600px;
+    margin: 0 auto; /* Center the form within the page */
+    padding: 20px;
+    background-color: #999494;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.one-col label {
+    display: block; /* Ensure labels are on their own lines */
+    margin-bottom: 5px; /* Space below the labels */
+    font-weight: bold; /* Bold text for labels */
+}
+
+.one-col input[type="text"],
+.one-col input[type="email"],
+.one-col textarea {
+    width: 100%; /* Full width for inputs */
+    padding: 10px; /* Padding within the inputs */
+    margin-bottom: 15px; /* Space below each input */
+    border: 1px solid #ccc;
+    border-radius: 4px; /* Rounded corners for inputs */
+    box-sizing: border-box; /* Include padding within the width */
+    font-size: 16px;
+}
+
+.one-col input[type="submit"] {
+    background-color: #4CAF50; /* Green background for the submit button */
+    color: white;
+    padding: 12px 20px; /* Padding within the button */
+    border: none; /* Remove border from the button */
+    border-radius: 4px; /* Rounded corners for the button */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    font-size: 16px; /* Standard font size for the button */
+}
+
+.one-col input[type="submit"]:hover {
+    background-color: #45a049; /* Darken the button color on hover */
+}
