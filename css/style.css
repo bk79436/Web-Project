@@ -151,6 +151,54 @@ hr.b4 {
     margin: 0;
 }
 
+section {
+    padding: 20px;
+}
+
+.education-content {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.education-content img#honors {
+    margin-right: 15px;
+}
+
+.education-content dt {
+    font-weight: bold;
+}
+
+.education-content dd {
+    margin-left: 20px;
+}
+
+.Skills {
+    padding: 20px;
+}
+
+.Skills ul {
+    padding-left: 20px;
+}
+
+.Skills .b3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.Leadership {
+    padding: 20px;
+}
+
+.Leadership dl dt, .Leadership dl dd {
+    margin-left: 10px;
+}
+
+.Leadership .b4 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 /* Styling for section headers */
 h2, h3 {
     font-family: 'Roboto', sans-serif; /* Use a modern font for headers */
